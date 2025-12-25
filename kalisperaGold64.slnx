@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="kalisperaGold64/kalisperaGold64.vcxproj" Id="d5bc7767-7743-429c-8516-c6ccbbb463db" />
+  <Project Path="RenderSystemKalispera64test1/RenderSystemKalispera64test1.vcxproj" Id="f7d61738-a28b-49aa-9177-896756c27ed0" />
+</Solution>
