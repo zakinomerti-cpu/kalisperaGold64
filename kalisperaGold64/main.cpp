@@ -239,7 +239,7 @@ void update() {
 		vrag->setFragmentShader(my_fs2);
 		vrag->shaderInit();
 		vrag->setMesh(new Plane());
-		vrag->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//vrag.bmp", vrag->getShaderProgram()));
+		vrag->setTexture(new Texture("vrag.bmp", vrag->getShaderProgram()));
 		vrag->setPosition(-2.5f * (rand()%1000)*sin(timer)/1000.0f, -0.5f, -2.5f * (rand() % 1000) * cos(timer) / 1000.0f);
 		vrag->setRotation(-90.0f, -90.0, 0.0f);
 		scn->addEntity(vrag);
@@ -251,7 +251,7 @@ void update() {
 		vrag->setFragmentShader(my_fs2);
 		vrag->shaderInit();
 		vrag->setMesh(new Plane());
-		vrag->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//custbol1.bmp", vrag->getShaderProgram()));
+		vrag->setTexture(new Texture("custbol1.bmp", vrag->getShaderProgram()));
 		vrag->setPosition(camera.x, camera.y, camera.z);
 		vrag->setScale(0.25, 0.25, 0.25);
 		vrag->setRotation(-90.0f, -90.0, 0.0f);
@@ -264,7 +264,7 @@ void update() {
 		vrag->setFragmentShader(my_fs2);
 		vrag->shaderInit();
 		vrag->setMesh(new Plane());
-		vrag->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//custbol2.bmp", vrag->getShaderProgram()));
+		vrag->setTexture(new Texture("custbol2.bmp", vrag->getShaderProgram()));
 		vrag->setPosition(camera.x, camera.y, camera.z);
 		vrag->setScale(0.25, 0.25, 0.25);
 		vrag->setRotation(-90.0f, -90.0, 0.0f);
@@ -330,7 +330,7 @@ void start() {
 			ent->setMesh(new Cube());
 			ent->setScale(1* tile_size, 0.001, 1* tile_size);
 			ent->setPosition(1.0f*i* tile_size, -1, 1*j* tile_size);
-			ent->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//grass.bmp", ent->getShaderProgram()));
+			ent->setTexture(new Texture("grass.bmp", ent->getShaderProgram()));
 			scn->addEntity(ent);
 		}
 	}
@@ -339,7 +339,7 @@ void start() {
 	ent2->setMesh(new Cube());
 	ent2->setPosition(-3, -1, -3);
 	ent2->setScale(1, 0.002, 1);
-	ent2->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//grass_lighted.bmp", ent2->getShaderProgram()));
+	ent2->setTexture(new Texture("grass_lighted.bmp", ent2->getShaderProgram()));
 	scn->addEntity(ent2);
 
 
@@ -348,7 +348,7 @@ void start() {
 	entInterface0->setFragmentShader(my_fs);
 	entInterface0->shaderInit();
 	entInterface0->setMesh(new Plane2D());
-	entInterface0->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//rukaR.bmp", entInterface0->getShaderProgram()));
+	entInterface0->setTexture(new Texture("rukaR.bmp", entInterface0->getShaderProgram()));
 	entInterface0->setPosition(-0.5f, -.25f, 0.0f);
 	scn->addEntityToIndex(entInterface0, 1020);
 
@@ -357,7 +357,7 @@ void start() {
 	entInterface->setFragmentShader(my_fs);
 	entInterface->shaderInit();
 	entInterface->setMesh(new Plane2D());
-	entInterface->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//rukaL.bmp", entInterface->getShaderProgram()));
+	entInterface->setTexture(new Texture("rukaL.bmp", entInterface->getShaderProgram()));
 	entInterface->setPosition(0.5f, -.25f, 0.0f);
 	scn->addEntityToIndex(entInterface, 1021);
 
@@ -366,7 +366,7 @@ void start() {
 	entInterface2->setFragmentShader(my_fs);
 	entInterface2->shaderInit();
 	entInterface2->setMesh(new Plane2D());
-	entInterface2->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//interface_left.bmp", entInterface2->getShaderProgram()));
+	entInterface2->setTexture(new Texture("interface_left.bmp", entInterface2->getShaderProgram()));
 	entInterface2->setPosition(-0.5f, -.5f, 0.0f);
 	scn->addEntityToIndex(entInterface2, 1022);
 
@@ -375,7 +375,7 @@ void start() {
 	entInterface3->setFragmentShader(my_fs);
 	entInterface3->shaderInit();
 	entInterface3->setMesh(new Plane2D());
-	entInterface3->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//interface_right.bmp", entInterface3->getShaderProgram()));
+	entInterface3->setTexture(new Texture("interface_right.bmp", entInterface3->getShaderProgram()));
 	entInterface3->setPosition(0.5f, -.5f, 0.0f);
 	scn->addEntityToIndex(entInterface3, 1023);
 
@@ -384,7 +384,7 @@ void start() {
 	vrag->setFragmentShader(my_fs2);
 	vrag->shaderInit();
 	vrag->setMesh(new Plane());
-	vrag->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//vrag.bmp", vrag->getShaderProgram()));
+	vrag->setTexture(new Texture("vrag.bmp", vrag->getShaderProgram()));
 	vrag->setPosition(-2.5f, -0.5f, -2.5f);
 	vrag->setRotation(-90.0f, -90.0, 0.0f);
 	scn->addEntity(vrag);
@@ -394,7 +394,7 @@ void start() {
 	entInterfaceShpere->setFragmentShader(my_fs3);
 	entInterfaceShpere->shaderInit();
 	entInterfaceShpere->setMesh(new Plane2D());
-	entInterfaceShpere->setTexture(new Texture("C://Users//Xinitrix//Pictures//gtextures//vrag.bmp", entInterfaceShpere->getShaderProgram()));
+	entInterfaceShpere->setTexture(new Texture("vrag.bmp", entInterfaceShpere->getShaderProgram()));
 	scn->addEntityToIndex(entInterfaceShpere, 1019);
 
 }
